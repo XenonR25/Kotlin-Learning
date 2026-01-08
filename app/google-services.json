@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056549147480",
+    "project_id": "chatmate-316e3",
+    "storage_bucket": "chatmate-316e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056549147480:android:266f9ba454782667c54b2d",
+        "android_client_info": {
+          "package_name": "com.example.assignment1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapJ7sl5pt1hiULGcvAR6yxbJMqucDSjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
