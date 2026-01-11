@@ -5,6 +5,7 @@ plugins {
     id("com.google.dagger.hilt.android") // <-- Hilt plugin
     id("com.google.gms.google-services")
     id("com.google.devtools.ksp")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -78,6 +79,7 @@ dependencies {
     implementation(libs.bundles.firebase)
     // In build.gradle.kts
     implementation("com.google.android.gms:play-services-location:21.3.0")
+    implementation("com.google.firebase:firebase-crashlytics")
     implementation(libs.androidx.work.runtime.ktx)
 }
 kapt {

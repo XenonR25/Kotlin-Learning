@@ -20,7 +20,6 @@ class MessageActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, MainFragment())
             .commit()
-
     }
 }
 
