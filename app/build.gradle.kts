@@ -81,6 +81,12 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation("com.google.firebase:firebase-crashlytics")
     implementation(libs.androidx.work.runtime.ktx)
+    //Glide dependency
+//    implementation("github.com.bumptech.glide:glide:4.16.0")
+//    ksp("com.github.bumptech.glide:ksp:4.16.0")
+
+    //ContentResolver or Media
+    implementation("androidx.media:media:1.7.1")
 }
 kapt {
     correctErrorTypes = true

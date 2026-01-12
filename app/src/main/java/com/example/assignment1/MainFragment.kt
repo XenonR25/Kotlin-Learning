@@ -78,7 +78,10 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         binding.btnGoToMusic.setOnClickListener {
             parentFragmentManager.beginTransaction().replace(R.id.fragment_container,MusicFragment()).addToBackStack(null).commit()
         }
-
+        binding.btnContentProvider.setOnClickListener {
+            parentFragmentManager.beginTransaction().replace(R.id.fragment_container,
+                ContentProviderFragment()).addToBackStack(null).commit()
+        }
     }
 
     private fun checkAndRequestPermission(){
