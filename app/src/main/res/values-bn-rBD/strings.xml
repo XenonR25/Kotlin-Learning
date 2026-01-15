@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_message">নতুন বার্তা</string>
+    <string name="background_picture">পটভূমির ছবি</string>
+    <string name="receiver_e_g_user_2">রিসিভার (যেমন, user_2)</string>
+    <string name="your_message">আপনার বার্তা</string>
+    <string name="send_to_firebase">ফায়ারবেসে পাঠান</string>
+    <string name="location_show">অবস্থান এখানে দেখানো হবে</string>
+    <string name="current_location">বর্তমান অবস্থান পান</string>
+    <string name="music_player">মিউজিক প্লেয়ারে যান</string>
+    <string name="image_provider">ImageProvider-এ যান</string>
+</resources>

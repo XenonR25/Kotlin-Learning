@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">Friski: Your Food Companion</string>
+    <string name="app_name" translatable="false">Friski: Your Food Companion</string>
     <string name="new_message">New Message</string>
+    <string name="background_picture">Background Picture</string>
+    <string name="receiver_e_g_user_2">Receiver (e.g., user_2)</string>
+    <string name="your_message">Your Message</string>
+    <string name="send_to_firebase">Send To Firebase</string>
+    <string name="location_show">Location will be shown here</string>
+    <string name="current_location">Get Current Location</string>
+    <string name="music_player">Go to Music Player</string>
+    <string name="image_provider">Go to ImageProvider</string>
 </resources>

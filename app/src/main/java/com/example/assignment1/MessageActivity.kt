@@ -3,9 +3,10 @@ package com.example.assignment1
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import dagger.hilt.android.AndroidEntryPoint
 
 
-
+@AndroidEntryPoint
 class MessageActivity : AppCompatActivity() {
 
 

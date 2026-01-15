@@ -21,7 +21,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment1"
-        android:name=".Hilt.MyApplication">
+        android:name=".Hilt.MainApplication">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -41,14 +41,14 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".Context.Service.MyFirebaseMessagingService"
+            android:name=".Context.service.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
         <service
-            android:name=".Context.Service.MusicService"
+            android:name=".Context.service.MusicService"
             android:foregroundServiceType="mediaPlayback"
             android:enabled="true"
             android:exported="false" />

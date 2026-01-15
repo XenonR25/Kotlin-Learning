@@ -14,5 +14,10 @@
 
 
     </style>
+    <style name="GlassDialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
 
 </resources>
