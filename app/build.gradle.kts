@@ -9,6 +9,17 @@ plugins {
 }
 
 android {
+    packaging {
+        resources {
+            // This tells Android to ignore the duplicate index files
+            // from the Netty libraries used by HiveMQ
+            excludes += "/META-INF/INDEX.LIST"
+
+            // Sometimes Netty also causes issues with these,
+            // so it's safer to include them as well:
+            excludes += "/META-INF/io.netty.versions.properties"
+        }
+    }
     namespace = "com.example.assignment1"
     compileSdk = 36
 
@@ -87,6 +98,10 @@ dependencies {
 
     //ContentResolver or Media
     implementation("androidx.media:media:1.7.1")
+
+    // MQTT Client
+    implementation("com.hivemq:hivemq-mqtt-client:1.3.0")
+    implementation("org.osmdroid:osmdroid-android:6.1.18")
 }
 kapt {
     correctErrorTypes = true

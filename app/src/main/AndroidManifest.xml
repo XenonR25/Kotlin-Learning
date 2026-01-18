@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />\<uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
@@ -33,7 +34,7 @@
             android:exported="true">
 
         </activity>
-        <activity android:name=".MessageActivity"
+        <activity android:name=".MapActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,6 +53,12 @@
             android:foregroundServiceType="mediaPlayback"
             android:enabled="true"
             android:exported="false" />
+        <service
+            android:name=".Context.service.LocationService"
+            android:foregroundServiceType="location"
+            android:enabled="true"
+            android:exported="false"
+             />
     </application>
 
 </manifest>
